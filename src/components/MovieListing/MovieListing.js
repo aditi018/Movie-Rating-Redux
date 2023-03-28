@@ -4,6 +4,7 @@ import {getAllMovies , getAllShows} from "../../features/movies/movieSlice";
 import MovieCard from "../MovieCard/MovieCard";
 import "./MovieListing.scss";
 
+
 function MovieListing() {
 
   const movies = useSelector(getAllMovies);
